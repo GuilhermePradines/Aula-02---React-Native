@@ -57,9 +57,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
+    
   },
   avatar: {
     marginBottom: 20,
+    backgroundColor: "#2ECC71",
   },
   button: {
     width: 200,
@@ -73,4 +75,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ForgotPasswordScreen;
+export default Login;
